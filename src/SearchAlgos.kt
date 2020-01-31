@@ -1,0 +1,7 @@
+class SearchAlgos {
+
+    fun binarySearch(){
+
+    }
+
+}
