@@ -1,6 +1,7 @@
 import kotlin.math.abs
 import kotlin.math.round
 
+@Suppress("unused")
 class DrawLine {
 
     fun dda(x1 :Int, y1 :Int, x2 :Int, y2 :Int){
