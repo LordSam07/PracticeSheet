@@ -44,5 +44,5 @@ class StringToBinary {
 
 fun main(){
     val obj = StringToBinary()
-    println(obj.convertSTB("sam"))
+    println(obj.convertSTB("sammy"))
 }

@@ -1,16 +1,6 @@
 fun main(){
 
-    println("Enter token :")
-    var token = readLine()!!
-    val obj = OperatorPrecedence()
-    val s = Stack()
-    var arr = ArrayList<String>()
-    arr = obj.sortPrecedence(token)
+    val ob = DrawLine()
 
-    for (i in arr.indices){
-        s.push(arr[i])
-    }
-
-    println("${s.pop()}  Popped from stack");
-    print(s.peek())
+    ob.bresenham(5, 4, 12, 7)
 }
